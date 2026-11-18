@@ -6,7 +6,7 @@ A dependency-free PHP 8.2+ port of [Mintlify's agent-traffic](https://github.com
 
 ## Installation
 
-Once published on Packagist:
+Install via Composer from [Packagist](https://packagist.org/packages/0x15f/agent-traffic):
 
 ```sh
 composer require 0x15f/agent-traffic
@@ -95,7 +95,7 @@ Tests include frozen results from the upstream test suite, every example's categ
 
 ## Publishing
 
-Submit `https://github.com/0x15f/php-agent-traffic` to Packagist under `0x15f/agent-traffic`, enable its GitHub update hook, then tag releases with semantic versions (for example `v0.1.0`). Composer derives versions from Git tags; no version field is needed in composer.json.
+The package is listed on [Packagist as `0x15f/agent-traffic`](https://packagist.org/packages/0x15f/agent-traffic). Tag releases with semantic versions (for example `v0.1.0`). Composer derives versions from Git tags; no version field is needed in composer.json.
 
 ## Attribution
 
