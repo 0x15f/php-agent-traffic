@@ -1,0 +1,14 @@
+{
+    "name": "0x15f/agent-traffic",
+    "description": "Tell AI agents, crawlers and bots apart from people. A PHP port of Mintlify agent-traffic.",
+    "type": "library",
+    "keywords": ["ai", "agents", "bots", "crawlers", "user-agent", "analytics"],
+    "homepage": "https://github.com/0x15f/php-agent-traffic",
+    "license": "MIT",
+    "authors": [{"name": "Jake Casto", "homepage": "https://github.com/0x15f"}],
+    "require": {"php": "^8.2"},
+    "autoload": {"psr-4": {"AgentTraffic\\": "src/"}},
+    "scripts": {"test": "@php tests/run.php", "lint": "find src tests -name '*.php' -print0 | xargs -0 -n1 php -l"},
+    "support": {"issues": "https://github.com/0x15f/php-agent-traffic/issues", "source": "https://github.com/0x15f/php-agent-traffic"},
+    "config": {"sort-packages": true}
+}

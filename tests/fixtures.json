@@ -1,0 +1,3794 @@
+[
+  {
+    "input": {
+      "userAgent": "Claude-User (claude-code/2.1.308; +https://support.anthropic.com/)"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "coding",
+      "id": "claude-code",
+      "name": "Claude Code",
+      "operator": "Anthropic",
+      "version": "2.1.308",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Claude Code",
+        "Claude Code runs on the user's machine, so IP verification does not apply"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "claude-code/2.1.107 (cli)"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "coding",
+      "id": "claude-code",
+      "name": "Claude Code",
+      "operator": "Anthropic",
+      "version": "2.1.107",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Claude Code",
+        "Claude Code runs on the user's machine, so IP verification does not apply"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "GitHubCopilotRuntime-WebFetch"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "coding",
+      "id": "github-copilot",
+      "name": "GitHub Copilot",
+      "operator": "GitHub",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches GitHub Copilot",
+        "GitHub Copilot runs on the user's machine, so IP verification does not apply"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; OpenCode-User/1.0; +https://opencode.ai"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "coding",
+      "id": "opencode",
+      "name": "OpenCode",
+      "operator": "SST",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches OpenCode",
+        "OpenCode runs on the user's machine, so IP verification does not apply"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "opencode-smartfetch/1.0"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "coding",
+      "id": "opencode",
+      "name": "OpenCode",
+      "operator": "SST",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches OpenCode",
+        "OpenCode runs on the user's machine, so IP verification does not apply"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "GoogleAgent-URLContext"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "coding",
+      "id": "gemini-cli",
+      "name": "Gemini CLI",
+      "operator": "Google",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Gemini CLI"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Google-Jetski-Antigravity"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "coding",
+      "id": "antigravity",
+      "name": "Antigravity",
+      "operator": "Google",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Antigravity"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "ZCode-WebFetch/0.1 (+https://zcode.ai; coding-agent-cli)"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "coding",
+      "id": "zcode",
+      "name": "ZCode",
+      "operator": "ZCode",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches ZCode",
+        "ZCode runs on the user's machine, so IP verification does not apply"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "deepseek-harness/0.0.1 (+https://github.com/deepseek-ai)"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "coding",
+      "id": "deepseek-harness",
+      "name": "DeepSeek harness",
+      "operator": "DeepSeek",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches DeepSeek harness",
+        "DeepSeek harness runs on the user's machine, so IP verification does not apply"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "assistant",
+      "id": "chatgpt-user",
+      "name": "ChatGPT-User",
+      "operator": "OpenAI",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches ChatGPT-User"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Claude-User/1.0; +claude-user@anthropic.com)"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "assistant",
+      "id": "claude-user",
+      "name": "Claude-User",
+      "operator": "Anthropic",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Claude-User"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Claude-User"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "assistant",
+      "id": "claude-user",
+      "name": "Claude-User",
+      "operator": "Anthropic",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Claude-User"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Claude-Web/1.0 (web crawler; +https://www.anthropic.com/; bots@anthropic.com)"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "assistant",
+      "id": "claude-user",
+      "name": "Claude-User",
+      "operator": "Anthropic",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Claude-User"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Perplexity-User/1.0; +https://perplexity.ai/perplexity-user)"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "assistant",
+      "id": "perplexity-user",
+      "name": "Perplexity-User",
+      "operator": "Perplexity",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Perplexity-User"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityUser/1.0; +https://perplexity.ai)"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "assistant",
+      "id": "perplexity-user",
+      "name": "Perplexity-User",
+      "operator": "Perplexity",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Perplexity-User"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; MistralAI-User/1.0; +https://docs.mistral.ai/robots)"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "assistant",
+      "id": "mistralai-user",
+      "name": "MistralAI-User",
+      "operator": "Mistral",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches MistralAI-User"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "DuckAssistBot/1.2; (+http://duckduckgo.com/duckassistbot.html)"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "assistant",
+      "id": "duckassistbot",
+      "name": "DuckAssistBot",
+      "operator": "DuckDuckGo",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches DuckAssistBot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Google-NotebookLM"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "assistant",
+      "id": "google-notebooklm",
+      "name": "Google NotebookLM",
+      "operator": "Google",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Google NotebookLM"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (compatible; Google-NotebookLM; +https://notebooklm.google.com/)"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "assistant",
+      "id": "google-notebooklm",
+      "name": "Google NotebookLM",
+      "operator": "Google",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Google NotebookLM"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; compatible; Google-Agent; +https://developers.google.com/crawling/docs/crawlers-fetchers/google-agent) Chrome/155.0.8059.79 Safari/537.36"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "browser",
+      "id": "google-agent",
+      "name": "Google-Agent",
+      "operator": "Google",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Google-Agent"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (compatible; ExaUser/1.0; +https://crawler.exa.ai/exauser)"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "assistant",
+      "id": "exa-user",
+      "name": "ExaUser",
+      "operator": "Exa",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches ExaUser"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (compatible; grok-agent/1.0; +https://x.ai)"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "assistant",
+      "id": "grok-agent",
+      "name": "Grok agent",
+      "operator": "xAI",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Grok agent"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (compatible; Meta-ExternalFetcher/1.0; +https://developers.facebook.com/docs/sharing/webmasters/crawler)"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "assistant",
+      "id": "meta-externalfetcher",
+      "name": "Meta-ExternalFetcher",
+      "operator": "Meta",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Meta-ExternalFetcher"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "amazon-Quick-on-behalf-of-0a1b2c3d"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "assistant",
+      "id": "amazon-quick",
+      "name": "Amazon Quick",
+      "operator": "Amazon",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Amazon Quick"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Amazon-Bedrock-AgentCore-Browser/1.0 (Chromium; +https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/browser-tool.html)"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "browser",
+      "id": "amazon-agentcore-browser",
+      "name": "Amazon Bedrock AgentCore Browser",
+      "operator": "Amazon",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Amazon Bedrock AgentCore Browser"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "MiniMaxAgent"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "assistant",
+      "id": "minimax-agent",
+      "name": "MiniMax Agent",
+      "operator": "MiniMax",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches MiniMax Agent"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Cursor/3.0.16 (darwin arm64)"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "coding",
+      "id": "cursor",
+      "name": "Cursor",
+      "operator": "Anysphere",
+      "version": "3.0.16",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Cursor",
+        "Cursor runs on the user's machine, so IP verification does not apply"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Cursor/3.0.16 Chrome/142.0.7444.265 Electron/39.8.1 Safari/537.36"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "coding",
+      "id": "cursor",
+      "name": "Cursor",
+      "operator": "Anysphere",
+      "version": "3.0.16",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Cursor",
+        "Cursor runs on the user's machine, so IP verification does not apply"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "qodercli/1.1.69 (+https://qoder.com)"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "coding",
+      "id": "qoder",
+      "name": "Qoder CLI",
+      "operator": "Alibaba",
+      "version": "1.1.69",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Qoder CLI",
+        "Qoder CLI runs on the user's machine, so IP verification does not apply"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "qoderclicn/1.1.69 (+https://qoder.cn)"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "coding",
+      "id": "qoder",
+      "name": "Qoder CLI",
+      "operator": "Alibaba",
+      "version": "1.1.69",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Qoder CLI",
+        "Qoder CLI runs on the user's machine, so IP verification does not apply"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "KiroServer/1.0"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "coding",
+      "id": "kiro",
+      "name": "Kiro",
+      "operator": "Amazon",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Kiro"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Augment-WebFetch/1.0"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "coding",
+      "id": "augment",
+      "name": "Augment",
+      "operator": "Augment Code",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Augment",
+        "Augment runs on the user's machine, so IP verification does not apply"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "QwenCode/0.27.0 (linux; x64)"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "coding",
+      "id": "qwen-code",
+      "name": "Qwen Code",
+      "operator": "Alibaba",
+      "version": "0.27.0",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Qwen Code",
+        "Qwen Code runs on the user's machine, so IP verification does not apply"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "QwenCode/0.26.9 (darwin; arm64)"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "coding",
+      "id": "qwen-code",
+      "name": "Qwen Code",
+      "operator": "Alibaba",
+      "version": "0.26.9",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Qwen Code",
+        "Qwen Code runs on the user's machine, so IP verification does not apply"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "QwenCode/0.26.9 (win32; x64)"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "coding",
+      "id": "qwen-code",
+      "name": "Qwen Code",
+      "operator": "Alibaba",
+      "version": "0.26.9",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Qwen Code",
+        "Qwen Code runs on the user's machine, so IP verification does not apply"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; Shap-User/0.1.0"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "assistant",
+      "id": "shap-user",
+      "name": "Shap-User",
+      "operator": "Shap",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Shap-User"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; Kimi-User/1.0; +https://www.kimi.com/policies/kimi-crawlers"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "assistant",
+      "id": "kimi-user",
+      "name": "Kimi-User",
+      "operator": "Moonshot AI",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Kimi-User"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Liner-User/1.0; +https://liner-user.liner.com/docs/liner-user)"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "assistant",
+      "id": "liner-user",
+      "name": "Liner-User",
+      "operator": "Liner",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Liner-User"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Gemini-Deep-Research; +https://gemini.google/overview/deep-research/) Chrome/135.0.0.0 Safari/537.36"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "assistant",
+      "id": "gemini-deep-research",
+      "name": "Gemini Deep Research",
+      "operator": "Google",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Gemini Deep Research"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Amzn-User/0.1) Chrome/W.X.Y.Z Safari/537.36"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "assistant",
+      "id": "amzn-user",
+      "name": "Amzn-User",
+      "operator": "Amazon",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Amzn-User"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "kagi-fetcher/1.0"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "assistant",
+      "id": "kagi-fetcher",
+      "name": "kagi-fetcher",
+      "operator": "Kagi",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches kagi-fetcher"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla-Tabstack/1.0 (+https://tabstack.ai)"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "assistant",
+      "id": "tabstack",
+      "name": "Tabstack",
+      "operator": "Mozilla",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Tabstack"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "gptbot",
+      "name": "GPTBot",
+      "operator": "OpenAI",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches GPTBot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ClaudeBot/1.0; +claudebot@anthropic.com)"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "claudebot",
+      "name": "ClaudeBot",
+      "operator": "Anthropic",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches ClaudeBot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "anthropic-ai"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "claudebot",
+      "name": "ClaudeBot",
+      "operator": "Anthropic",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches ClaudeBot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "meta-externalagent",
+      "name": "Meta-ExternalAgent",
+      "operator": "Meta",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Meta-ExternalAgent"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; spider-feedback@bytedance.com)"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "bytespider",
+      "name": "Bytespider",
+      "operator": "ByteDance",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Bytespider"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "CCBot/2.0 (https://commoncrawl.org/faq/)"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "ccbot",
+      "name": "CCBot",
+      "operator": "Common Crawl",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches CCBot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (compatible; cohere-ai; +https://cohere.com/crawler)"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "cohere-ai",
+      "name": "cohere-ai",
+      "operator": "Cohere",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches cohere-ai"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Amazonbot/0.1; +https://developer.amazon.com/support/amazonbot) Chrome/119.0.6045.214 Safari/537.36"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "amazonbot",
+      "name": "Amazonbot",
+      "operator": "Amazon",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Amazonbot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GoogleOther) Chrome/153.0.8010.52 Safari/537.36"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "googleother",
+      "name": "GoogleOther",
+      "operator": "Google",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches GoogleOther"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (compatible; ElevenlabsCrawler/1.0; +https://elevenlabs.io/docs/bots)"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "elevenlabs-crawler",
+      "name": "ElevenlabsCrawler",
+      "operator": "ElevenLabs",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches ElevenlabsCrawler"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; OAI-SearchBot/1.0; +https://openai.com/searchbot"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "ai-search",
+      "id": "oai-searchbot",
+      "name": "OAI-SearchBot",
+      "operator": "OpenAI",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches OAI-SearchBot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Claude-SearchBot/1.0; +searchbot@anthropic.com)"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "ai-search",
+      "id": "claude-searchbot",
+      "name": "Claude-SearchBot",
+      "operator": "Anthropic",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Claude-SearchBot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "ai-search",
+      "id": "perplexitybot",
+      "name": "PerplexityBot",
+      "operator": "Perplexity",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches PerplexityBot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (compatible; ExaSearchBot/1.0; +https://crawler.exa.ai/)"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "ai-search",
+      "id": "exa-searchbot",
+      "name": "ExaSearchBot",
+      "operator": "Exa",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches ExaSearchBot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ShapBot/0.1.0"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "ai-search",
+      "id": "shapbot",
+      "name": "ShapBot",
+      "operator": "Shap",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches ShapBot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; YouBot/1.0; +https://docs.you.com/youbot; env:prod) Chrome/142.0.0.0 Safari/537.36"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "ai-search",
+      "id": "youbot",
+      "name": "YouBot",
+      "operator": "You.com",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches YouBot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "amazon-bedrock-knowledgebase-on-behalf-of-0a1b2c3d"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "ingest",
+      "id": "amazon-bedrock-kb",
+      "name": "Amazon Bedrock Knowledge Bases",
+      "operator": "Amazon",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Amazon Bedrock Knowledge Bases"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "amazon-kendra"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "ingest",
+      "id": "amazon-kendra",
+      "name": "Amazon Kendra",
+      "operator": "Amazon",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Amazon Kendra"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.8010.52 Mobile Safari/537.36 (compatible; Google-CloudVertexBot; +https://cloud.google.com/enterprise-search)"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "ingest",
+      "id": "google-cloudvertexbot",
+      "name": "Google-CloudVertexBot",
+      "operator": "Google",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Google-CloudVertexBot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; KimiBot/1.0; +https://www.kimi.com/policies/kimi-crawlers"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "kimibot",
+      "name": "KimiBot",
+      "operator": "Moonshot AI",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches KimiBot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; MistralAI-Training/1.0; +https://docs.mistral.ai/robots)"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "mistralai-training",
+      "name": "MistralAI-Training",
+      "operator": "Mistral",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches MistralAI-Training"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (compatible; FacebookBot/1.0; +https://developers.facebook.com/docs/sharing/webmasters/facebookbot/)"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "facebookbot",
+      "name": "FacebookBot",
+      "operator": "Meta",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches FacebookBot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (compatible) AI2Bot (+https://www.allenai.org/crawler)"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "ai2bot",
+      "name": "AI2Bot",
+      "operator": "Allen Institute for AI",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches AI2Bot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (compatible) Ai2Bot-Dolma (+https://www.allenai.org/crawler)"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "ai2bot",
+      "name": "AI2Bot",
+      "operator": "Allen Institute for AI",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches AI2Bot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "ClueWeb-Crawler/1.0 (+https://boston.lti.cs.cmu.edu/CMU-ClueWeb-Crawler/; mailto:cmu-clueweb-crawler@andrew.cmu.edu)"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "clueweb",
+      "name": "ClueWeb-Crawler",
+      "operator": "Carnegie Mellon University",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches ClueWeb-Crawler"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (compatible; Timpibot/0.9; +http://www.timpi.io)"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "training-datasets",
+      "name": "Dataset crawlers",
+      "operator": "Various",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Dataset crawlers"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "ICC-Crawler/2.0 (Mozilla-compatible; ; http://ucri.nict.go.jp/en/icccrawler.html)"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "training-datasets",
+      "name": "Dataset crawlers",
+      "operator": "Various",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Dataset crawlers"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.2) Gecko/20090729 Firefox/3.5.2 (.NET CLR 3.5.30729; Diffbot/0.1; +http://www.diffbot.com)"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "training-datasets",
+      "name": "Dataset crawlers",
+      "operator": "Various",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Dataset crawlers"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:72.0) Gecko/20100101 Firefox/72.0 (compatible; img2downloader; +https://github.com/rom1504/img2dataset)"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "training-datasets",
+      "name": "Dataset crawlers",
+      "operator": "Various",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Dataset crawlers"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (compatible; laion-huggingface-processor; +https://laion.ai/)"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "training-datasets",
+      "name": "Dataset crawlers",
+      "operator": "Various",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Dataset crawlers"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (compatible; ImagesiftBot; +imagesift.com)"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "training-datasets",
+      "name": "Dataset crawlers",
+      "operator": "Various",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Dataset crawlers"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (compatible; SBIntuitionsBot/0.1; +https://www.sbintuitions.co.jp/bot/)"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "training-datasets",
+      "name": "Dataset crawlers",
+      "operator": "Various",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Dataset crawlers"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; Kimi-SearchBot/1.0; +https://www.kimi.com/policies/kimi-crawlers"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "ai-search",
+      "id": "kimi-searchbot",
+      "name": "Kimi-SearchBot",
+      "operator": "Moonshot AI",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Kimi-SearchBot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; MistralAI-Index/1.0; +https://docs.mistral.ai/robots)"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "ai-search",
+      "id": "mistralai-index",
+      "name": "MistralAI-Index",
+      "operator": "Mistral",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches MistralAI-Index"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; LinerBot/1.0; +https://liner-bot.liner.com/docs/liner-bot)"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "ai-search",
+      "id": "linerbot",
+      "name": "LinerBot",
+      "operator": "Liner",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches LinerBot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Amzn-SearchBot/0.1) Chrome/119.0.6045.214 Safari/537.36"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "ai-search",
+      "id": "amzn-searchbot",
+      "name": "Amzn-SearchBot",
+      "operator": "Amazon",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Amzn-SearchBot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (compatible; PhindBot; +https://www.phind.com/)"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "ai-search",
+      "id": "phindbot",
+      "name": "PhindBot",
+      "operator": "Phind",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches PhindBot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "LinkupBot/1.0 (LinkupBot for web indexing; https://linkup.so/bot; bot@linkup.so)"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "ai-search",
+      "id": "linkupbot",
+      "name": "LinkupBot",
+      "operator": "Linkup",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches LinkupBot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (compatible; TavilyBot; +https://tavily.com/)"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "ai-search",
+      "id": "tavilybot",
+      "name": "TavilyBot",
+      "operator": "Tavily",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches TavilyBot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Context7-Crawler/1.0 (+https://context7.com/crawler)"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "ingest",
+      "id": "context7",
+      "name": "Context7-Crawler",
+      "operator": "Upstash",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Context7-Crawler"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (compatible; FirecrawlAgent; +https://firecrawl.dev/)"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "ingest",
+      "id": "firecrawl",
+      "name": "FirecrawlAgent",
+      "operator": "Firecrawl",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches FirecrawlAgent"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Cloudflare-AutoRAG (https://developers.cloudflare.com/autorag; autorag@cloudflare.com)"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "ingest",
+      "id": "cloudflare-ai-search",
+      "name": "Cloudflare AI Search",
+      "operator": "Cloudflare",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Cloudflare AI Search"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Cloudflare-AI-Search"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "ingest",
+      "id": "cloudflare-ai-search",
+      "name": "Cloudflare AI Search",
+      "operator": "Cloudflare",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Cloudflare AI Search"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; AzureAI-SearchBot/1.0;"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "ingest",
+      "id": "azure-ai-searchbot",
+      "name": "AzureAI-SearchBot",
+      "operator": "Microsoft",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches AzureAI-SearchBot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "amazon-QBusiness"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "ingest",
+      "id": "amazon-qbusiness",
+      "name": "Amazon Q Business",
+      "operator": "Amazon",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Amazon Q Business"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (compatible; atlassian-bot; +https://www.atlassian.com/)"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "ingest",
+      "id": "atlassian-bot",
+      "name": "atlassian-bot",
+      "operator": "Atlassian",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches atlassian-bot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Chrome/153.0.8010.36 Safari/537.36"
+    },
+    "options": {},
+    "result": {
+      "category": "crawler",
+      "kind": "search",
+      "id": "googlebot",
+      "name": "Googlebot",
+      "operator": "Google",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Googlebot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25 (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)"
+    },
+    "options": {},
+    "result": {
+      "category": "crawler",
+      "kind": "search",
+      "id": "googlebot",
+      "name": "Googlebot",
+      "operator": "Google",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Googlebot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/136.0.0.0 Safari/537.36"
+    },
+    "options": {},
+    "result": {
+      "category": "crawler",
+      "kind": "search",
+      "id": "bingbot",
+      "name": "Bingbot",
+      "operator": "Microsoft",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Bingbot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15 (Applebot/0.1; +http://www.apple.com/go/applebot)"
+    },
+    "options": {},
+    "result": {
+      "category": "crawler",
+      "kind": "search",
+      "id": "applebot",
+      "name": "Applebot",
+      "operator": "Apple",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Applebot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "DuckDuckBot/1.0; (+http://duckduckgo.com/duckduckbot.html)"
+    },
+    "options": {},
+    "result": {
+      "category": "crawler",
+      "kind": "search",
+      "id": "duckduckbot",
+      "name": "DuckDuckBot",
+      "operator": "DuckDuckGo",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches DuckDuckBot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+    },
+    "options": {},
+    "result": {
+      "category": "crawler",
+      "kind": "search",
+      "id": "yandexbot",
+      "name": "YandexBot",
+      "operator": "Yandex",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches YandexBot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (compatible; Baiduspider-render/2.0; +http://www.baidu.com/search/spider.html)"
+    },
+    "options": {},
+    "result": {
+      "category": "crawler",
+      "kind": "search",
+      "id": "baiduspider",
+      "name": "Baiduspider",
+      "operator": "Baidu",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Baiduspider"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "YisouSpider"
+    },
+    "options": {},
+    "result": {
+      "category": "crawler",
+      "kind": "search",
+      "id": "yisouspider",
+      "name": "YisouSpider",
+      "operator": "Alibaba (Shenma)",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches YisouSpider"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Mobile/15E148 YisouSpider/5.0 Safari/604.1"
+    },
+    "options": {},
+    "result": {
+      "category": "crawler",
+      "kind": "search",
+      "id": "yisouspider",
+      "name": "YisouSpider",
+      "operator": "Alibaba (Shenma)",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches YisouSpider"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)"
+    },
+    "options": {},
+    "result": {
+      "category": "crawler",
+      "kind": "search",
+      "id": "sogou",
+      "name": "Sogou web spider",
+      "operator": "Sogou",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Sogou web spider"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (HTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://webmaster.petalsearch.com/site/petalbot)"
+    },
+    "options": {},
+    "result": {
+      "category": "crawler",
+      "kind": "search",
+      "id": "petalbot",
+      "name": "PetalBot",
+      "operator": "Huawei",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches PetalBot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-webindexer/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))"
+    },
+    "options": {},
+    "result": {
+      "category": "crawler",
+      "kind": "search",
+      "id": "meta-webindexer",
+      "name": "Meta-WebIndexer",
+      "operator": "Meta",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Meta-WebIndexer"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (compatible; SeznamBot/4.0; +https://o-seznam.cz/napoveda/vyhledavani/en/seznambot-crawler/)"
+    },
+    "options": {},
+    "result": {
+      "category": "crawler",
+      "kind": "search",
+      "id": "seznambot",
+      "name": "SeznamBot",
+      "operator": "Seznam",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches SeznamBot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko) (compatible; Coveobot/2.0;+http://www.coveo.com/bot.html)"
+    },
+    "options": {},
+    "result": {
+      "category": "crawler",
+      "kind": "search",
+      "id": "coveobot",
+      "name": "Coveobot",
+      "operator": "Coveo",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Coveobot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (compatible; Google-InspectionTool/1.0)"
+    },
+    "options": {},
+    "result": {
+      "category": "crawler",
+      "kind": "search",
+      "id": "google-inspectiontool",
+      "name": "Google-InspectionTool",
+      "operator": "Google",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Google-InspectionTool"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; TikTokSpider; ttspider-feedback@tiktok.com)"
+    },
+    "options": {},
+    "result": {
+      "category": "crawler",
+      "kind": "search",
+      "id": "tiktokspider",
+      "name": "TikTokSpider",
+      "operator": "ByteDance",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches TikTokSpider"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (compatible; coccoc/1.0; +http://help.coccoc.com/searchengine)"
+    },
+    "options": {},
+    "result": {
+      "category": "crawler",
+      "kind": "search",
+      "id": "coccoc",
+      "name": "coccocbot",
+      "operator": "Cốc Cốc",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches coccocbot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "coccoc/1.0 (http://help.coccoc.com/)"
+    },
+    "options": {},
+    "result": {
+      "category": "crawler",
+      "kind": "search",
+      "id": "coccoc",
+      "name": "coccocbot",
+      "operator": "Cốc Cốc",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches coccocbot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (compatible; ibou-search/2.0; +https://ibou.com/crawlers.html)"
+    },
+    "options": {},
+    "result": {
+      "category": "crawler",
+      "kind": "search",
+      "id": "ibou",
+      "name": "ibou-search",
+      "operator": "ibou",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches ibou-search"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Algolia Crawler/v0.0.0"
+    },
+    "options": {},
+    "result": {
+      "category": "crawler",
+      "kind": "search",
+      "id": "algolia-crawler",
+      "name": "Algolia Crawler",
+      "operator": "Algolia",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Algolia Crawler"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "seo",
+      "id": "ahrefsbot",
+      "name": "AhrefsBot",
+      "operator": "Ahrefs",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches AhrefsBot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (compatible; SemrushBot/7~bl; +http://www.semrush.com/bot.html)"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "seo",
+      "id": "semrushbot",
+      "name": "SemrushBot",
+      "operator": "Semrush",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches SemrushBot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (compatible; Barkrowler/0.9; +https://babbar.tech/crawler)"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "seo",
+      "id": "seo-crawlers",
+      "name": "Other SEO crawlers",
+      "operator": "Various",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Other SEO crawlers"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Screaming Frog SEO Spider/24.0"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "seo",
+      "id": "seo-crawlers",
+      "name": "Other SEO crawlers",
+      "operator": "Various",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Other SEO crawlers"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "preview",
+      "id": "link-previews",
+      "name": "Link preview fetchers",
+      "operator": "Various",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Link preview fetchers"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Slackbot-LinkExpanding 1.0 (+https://api.slack.com/robots)"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "preview",
+      "id": "link-previews",
+      "name": "Link preview fetchers",
+      "operator": "Various",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Link preview fetchers"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "LinkedInBot/1.0 (compatible; Mozilla/5.0; Apache-HttpClient +http://www.linkedin.com)"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "preview",
+      "id": "link-previews",
+      "name": "Link preview fetchers",
+      "operator": "Various",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Link preview fetchers"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (compatible; Discordbot/2.0; +https://discordapp.com)"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "preview",
+      "id": "link-previews",
+      "name": "Link preview fetchers",
+      "operator": "Various",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Link preview fetchers"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Facebot/1.0"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "preview",
+      "id": "link-previews",
+      "name": "Link preview fetchers",
+      "operator": "Various",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Link preview fetchers"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0; BingPreview/1.0b) like Gecko"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "preview",
+      "id": "link-previews",
+      "name": "Link preview fetchers",
+      "operator": "Various",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Link preview fetchers"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; WOW64) SkypeUriPreview Preview/0.5"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "preview",
+      "id": "link-previews",
+      "name": "Link preview fetchers",
+      "operator": "Various",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Link preview fetchers"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Web Preview) Chrome/27.0.1453 Safari/537.36"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "preview",
+      "id": "link-previews",
+      "name": "Link preview fetchers",
+      "operator": "Various",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Link preview fetchers"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "meta-externalads/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "ads",
+      "id": "ad-verification",
+      "name": "Ad verification bots",
+      "operator": "Various",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Ad verification bots"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 (compatible; OAI-AdsBot/1.0; +https://openai.com/adsbot)"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "ads",
+      "id": "ad-verification",
+      "name": "Ad verification bots",
+      "operator": "Various",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Ad verification bots"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mediapartners-Google"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "ads",
+      "id": "ad-verification",
+      "name": "Ad verification bots",
+      "operator": "Various",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Ad verification bots"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Google-Display-Ads-Bot"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "ads",
+      "id": "ad-verification",
+      "name": "Ad verification bots",
+      "operator": "Various",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Ad verification bots"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 Chrome/139.0.7258.127 Safari/537.36 Google-Ads-Conversions"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "ads",
+      "id": "ad-verification",
+      "name": "Ad verification bots",
+      "operator": "Various",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Ad verification bots"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "lychee/0.24.2"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "monitor",
+      "id": "monitors",
+      "name": "Uptime and link monitors",
+      "operator": "Various",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Uptime and link monitors",
+        "Uptime and link monitors runs on the user's machine, so IP verification does not apply"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Consul Health Check"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "monitor",
+      "id": "monitors",
+      "name": "Uptime and link monitors",
+      "operator": "Various",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Uptime and link monitors",
+        "Uptime and link monitors runs on the user's machine, so IP verification does not apply"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (compatible; Google-Site-Verification/1.0)"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "monitor",
+      "id": "monitors",
+      "name": "Uptime and link monitors",
+      "operator": "Various",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Uptime and link monitors",
+        "Uptime and link monitors runs on the user's machine, so IP verification does not apply"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Search Console) Chrome/41.0.2272.118 Safari/537.36"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "monitor",
+      "id": "monitors",
+      "name": "Uptime and link monitors",
+      "operator": "Various",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Uptime and link monitors",
+        "Uptime and link monitors runs on the user's machine, so IP verification does not apply"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 CloudflareObservatory/1.0"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "monitor",
+      "id": "monitors",
+      "name": "Uptime and link monitors",
+      "operator": "Various",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Uptime and link monitors",
+        "Uptime and link monitors runs on the user's machine, so IP verification does not apply"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64; Catchpoint) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.90 Safari/537.36"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "monitor",
+      "id": "monitors",
+      "name": "Uptime and link monitors",
+      "operator": "Various",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Uptime and link monitors",
+        "Uptime and link monitors runs on the user's machine, so IP verification does not apply"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (compatible; Detectify) +https://detectify.com/bot/"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "scanner",
+      "id": "security-scanners",
+      "name": "Security scanners",
+      "operator": "Various",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Security scanners"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; LG-L160L Build/IML74K) AppleWebkit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Acunetix-Deepscan/31"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "scanner",
+      "id": "security-scanners",
+      "name": "Security scanners",
+      "operator": "Various",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Security scanners"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Turnitin (https://bit.ly/2UvnfoQ)"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "archiver",
+      "id": "archivers",
+      "name": "Web archivers",
+      "operator": "Various",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Web archivers"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "FeedFetcher-Google; (+http://www.google.com/feedfetcher.html)"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "feed",
+      "id": "feedfetcher-google",
+      "name": "FeedFetcher-Google",
+      "operator": "Google",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches FeedFetcher-Google"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "axios/1.13.2"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "http-client",
+      "name": "axios",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent is axios"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "curl/8.7.1"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "http-client",
+      "name": "curl",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent is curl"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "node"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "http-client",
+      "name": "Node.js",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent is Node.js"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "python-httpx/0.28.1"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "http-client",
+      "name": "Python httpx",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent is Python httpx"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Go-http-client/2.0"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "http-client",
+      "name": "Go net/http",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent is Go net/http"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Python-urllib/3.12"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "http-client",
+      "name": "Python urllib",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent is Python urllib"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Claude-User (claude-code/2.1.308; +https://support.anthropic.com/)"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "coding",
+      "id": "claude-code",
+      "name": "Claude Code",
+      "operator": "Anthropic",
+      "version": "2.1.308",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Claude Code",
+        "Claude Code runs on the user's machine, so IP verification does not apply"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Claude-Code-Docs-Fetcher/3.0"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "unidentified",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "user agent is not a browser and matches no known agent, crawler or client"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Claude-User"
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "assistant",
+      "id": "claude-user",
+      "name": "Claude-User",
+      "operator": "Anthropic",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Claude-User"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.109.3 Chrome/142.0.0.0 Electron/39.2.3 Safari/537.36"
+    },
+    "options": {},
+    "result": {
+      "category": "human",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "browser user agent; headers not checked"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)",
+      "ip": "132.196.86.12"
+    },
+    "options": {
+      "ipRanges": {
+        "https://openai.com/gptbot.json": {
+          "url": "https://openai.com/gptbot.json",
+          "createdAt": "2026-09-22T00:00:00Z",
+          "cidrs": [
+            "132.196.86.0/24",
+            "2a01:111::/32"
+          ]
+        }
+      },
+      "now": "2026-10-23T00:00:00.000Z"
+    },
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "gptbot",
+      "name": "GPTBot",
+      "operator": "OpenAI",
+      "verified": true,
+      "confidence": "high",
+      "reasons": [
+        "user agent matches GPTBot",
+        "132.196.86.12 is in OpenAI's published ranges"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)",
+      "ip": "2a01:111:f00::1"
+    },
+    "options": {
+      "ipRanges": {
+        "https://openai.com/gptbot.json": {
+          "url": "https://openai.com/gptbot.json",
+          "createdAt": "2026-09-22T00:00:00Z",
+          "cidrs": [
+            "132.196.86.0/24",
+            "2a01:111::/32"
+          ]
+        }
+      },
+      "now": "2026-10-23T00:00:00.000Z"
+    },
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "gptbot",
+      "name": "GPTBot",
+      "operator": "OpenAI",
+      "verified": true,
+      "confidence": "high",
+      "reasons": [
+        "user agent matches GPTBot",
+        "2a01:111:f00::1 is in OpenAI's published ranges"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)",
+      "ip": "73.12.4.9"
+    },
+    "options": {
+      "ipRanges": {
+        "https://openai.com/gptbot.json": {
+          "url": "https://openai.com/gptbot.json",
+          "createdAt": "2026-09-22T00:00:00Z",
+          "cidrs": [
+            "132.196.86.0/24",
+            "2a01:111::/32"
+          ]
+        }
+      },
+      "now": "2026-10-23T00:00:00.000Z"
+    },
+    "result": {
+      "category": "bot",
+      "kind": "impersonator",
+      "verified": false,
+      "confidence": "high",
+      "reasons": [
+        "claims to be GPTBot but 73.12.4.9 is outside OpenAI's published ranges"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)",
+      "ip": "73.12.4.9"
+    },
+    "options": {
+      "ipRanges": {
+        "https://openai.com/gptbot.json": {
+          "url": "https://openai.com/gptbot.json",
+          "createdAt": "2025-01-01T00:00:00Z",
+          "cidrs": [
+            "132.196.86.0/24",
+            "2a01:111::/32"
+          ]
+        }
+      },
+      "now": "2026-10-23T00:00:00.000Z"
+    },
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "gptbot",
+      "name": "GPTBot",
+      "operator": "OpenAI",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches GPTBot",
+        "OpenAI's range file is older than 180 days, so a mismatch is not treated as spoofing"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)",
+      "ip": "73.12.4.9"
+    },
+    "options": {},
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "gptbot",
+      "name": "GPTBot",
+      "operator": "OpenAI",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches GPTBot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Claude-User (claude-code/2.1.308; +https://support.anthropic.com/)",
+      "ip": "73.12.4.9"
+    },
+    "options": {
+      "ipRanges": {
+        "https://openai.com/gptbot.json": {
+          "url": "https://openai.com/gptbot.json",
+          "createdAt": "2026-09-22T00:00:00Z",
+          "cidrs": [
+            "132.196.86.0/24",
+            "2a01:111::/32"
+          ]
+        }
+      },
+      "now": "2026-10-23T00:00:00.000Z"
+    },
+    "result": {
+      "category": "agent",
+      "kind": "coding",
+      "id": "claude-code",
+      "name": "Claude Code",
+      "operator": "Anthropic",
+      "version": "2.1.308",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches Claude Code",
+        "Claude Code runs on the user's machine, so IP verification does not apply"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    "options": {},
+    "result": {
+      "category": "human",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "browser user agent; headers not checked"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    "options": {},
+    "result": {
+      "category": "human",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "browser user agent; headers not checked"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "headers": {
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
+        "Sec-Fetch-Dest": "document",
+        "Accept-Language": "en-US",
+        "Sec-Ch-Ua": "\"Chromium\";v=\"149\""
+      }
+    },
+    "options": {
+      "headersComplete": true
+    },
+    "result": {
+      "category": "human",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "browser user agent with consistent browser headers"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "headers": {
+        "accept-language": "en-US",
+        "sec-ch-ua": "\"Chromium\";v=\"149\"",
+        "sec-fetch-dest": "document",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-site": "none"
+      }
+    },
+    "options": {
+      "headersComplete": true
+    },
+    "result": {
+      "category": "human",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "browser user agent with consistent browser headers"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "headers": {
+        "accept-language": "en"
+      }
+    },
+    "options": {
+      "headersComplete": true
+    },
+    "result": {
+      "category": "bot",
+      "kind": "fake-browser",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "browser user agent without sec-fetch-* headers"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "headers": {
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
+        "Sec-Fetch-Dest": "document",
+        "Accept-Language": "en-US",
+        "Sec-Ch-Ua": "\"Chromium\";v=\"149\""
+      }
+    },
+    "options": {
+      "headersComplete": true
+    },
+    "result": {
+      "category": "bot",
+      "kind": "fake-browser",
+      "verified": null,
+      "confidence": "high",
+      "reasons": [
+        "sec-ch-ua sent with a non-Chromium user agent"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "headers": {
+        "accept-language": "en"
+      }
+    },
+    "options": {},
+    "result": {
+      "category": "human",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "browser user agent; headers not checked"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "headers": {
+        "Accept": "text/markdown, text/html;q=0.9, */*;q=0.1"
+      }
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "unidentified",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "Accept header prefers markdown over HTML, which browsers never do"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "headers": {
+        "accept": "text/markdown;q=1.0, text/x-markdown;q=0.9, text/plain;q=0.8, text/html;q=0.7, */*;q=0.1"
+      }
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "coding",
+      "id": "opencode",
+      "name": "OpenCode",
+      "operator": "SST",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "Accept header matches OpenCode's fingerprint",
+        "OpenCode runs on the user's machine, so IP verification does not apply"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "headers": {
+        "signature": "sig1=:abc:",
+        "signature-input": "sig1=(\"@authority\");tag=\"web-bot-auth\"",
+        "signature-agent": "\"https://chatgpt.com\""
+      }
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "browser",
+      "id": "chatgpt-agent",
+      "name": "ChatGPT agent",
+      "operator": "OpenAI",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "signed request names chatgpt.com in Signature-Agent; the signature itself is not verified"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "headers": {
+        "signature": "sig1=:abc:",
+        "signature-input": "sig1=(\"@authority\");tag=\"web-bot-auth\"",
+        "Signature-Agent": "sig1=\"https://agent.bot.goog\""
+      }
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "browser",
+      "id": "google-agent",
+      "name": "Google-Agent",
+      "operator": "Google",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "signed request names agent.bot.goog in Signature-Agent; the signature itself is not verified"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "curl/8.7.1",
+      "headers": {
+        "signature-agent": "\"https://chatgpt.com\""
+      }
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "http-client",
+      "name": "curl",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent is curl"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)",
+      "ip": "::ffff:132.196.86.5"
+    },
+    "options": {
+      "ipRanges": {
+        "https://openai.com/gptbot.json": {
+          "url": "https://openai.com/gptbot.json",
+          "createdAt": "2026-09-22T00:00:00Z",
+          "cidrs": [
+            "132.196.86.0/24",
+            "2a01:111::/32"
+          ]
+        }
+      },
+      "now": "2026-10-23T00:00:00.000Z"
+    },
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "gptbot",
+      "name": "GPTBot",
+      "operator": "OpenAI",
+      "verified": true,
+      "confidence": "high",
+      "reasons": [
+        "user agent matches GPTBot",
+        "132.196.86.5 is in OpenAI's published ranges"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)",
+      "ip": "132.196.86.5:443"
+    },
+    "options": {
+      "ipRanges": {
+        "https://openai.com/gptbot.json": {
+          "url": "https://openai.com/gptbot.json",
+          "createdAt": "2026-09-22T00:00:00Z",
+          "cidrs": [
+            "132.196.86.0/24",
+            "2a01:111::/32"
+          ]
+        }
+      },
+      "now": "2026-10-23T00:00:00.000Z"
+    },
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "gptbot",
+      "name": "GPTBot",
+      "operator": "OpenAI",
+      "verified": true,
+      "confidence": "high",
+      "reasons": [
+        "user agent matches GPTBot",
+        "132.196.86.5 is in OpenAI's published ranges"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)",
+      "ip": "[::ffff:132.196.86.5]:443"
+    },
+    "options": {
+      "ipRanges": {
+        "https://openai.com/gptbot.json": {
+          "url": "https://openai.com/gptbot.json",
+          "createdAt": "2026-09-22T00:00:00Z",
+          "cidrs": [
+            "132.196.86.0/24",
+            "2a01:111::/32"
+          ]
+        }
+      },
+      "now": "2026-10-23T00:00:00.000Z"
+    },
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "gptbot",
+      "name": "GPTBot",
+      "operator": "OpenAI",
+      "verified": true,
+      "confidence": "high",
+      "reasons": [
+        "user agent matches GPTBot",
+        "132.196.86.5 is in OpenAI's published ranges"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)",
+      "ip": "132.196.86.5, 10.0.0.1"
+    },
+    "options": {
+      "ipRanges": {
+        "https://openai.com/gptbot.json": {
+          "url": "https://openai.com/gptbot.json",
+          "createdAt": "2026-09-22T00:00:00Z",
+          "cidrs": [
+            "132.196.86.0/24",
+            "2a01:111::/32"
+          ]
+        }
+      },
+      "now": "2026-10-23T00:00:00.000Z"
+    },
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "gptbot",
+      "name": "GPTBot",
+      "operator": "OpenAI",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches GPTBot",
+        "IP \"132.196.86.5, 10.0.0.1\" is not a single valid address, so it was not checked"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)",
+      "ip": "unknown"
+    },
+    "options": {
+      "ipRanges": {
+        "https://openai.com/gptbot.json": {
+          "url": "https://openai.com/gptbot.json",
+          "createdAt": "2026-09-22T00:00:00Z",
+          "cidrs": [
+            "132.196.86.0/24",
+            "2a01:111::/32"
+          ]
+        }
+      },
+      "now": "2026-10-23T00:00:00.000Z"
+    },
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "gptbot",
+      "name": "GPTBot",
+      "operator": "OpenAI",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches GPTBot",
+        "IP \"unknown\" is not a single valid address, so it was not checked"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)",
+      "ip": ""
+    },
+    "options": {
+      "ipRanges": {
+        "https://openai.com/gptbot.json": {
+          "url": "https://openai.com/gptbot.json",
+          "createdAt": "2026-09-22T00:00:00Z",
+          "cidrs": [
+            "132.196.86.0/24",
+            "2a01:111::/32"
+          ]
+        }
+      },
+      "now": "2026-10-23T00:00:00.000Z"
+    },
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "gptbot",
+      "name": "GPTBot",
+      "operator": "OpenAI",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches GPTBot",
+        "IP \"\" is not a single valid address, so it was not checked"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)",
+      "ip": "999.1.1.1"
+    },
+    "options": {
+      "ipRanges": {
+        "https://openai.com/gptbot.json": {
+          "url": "https://openai.com/gptbot.json",
+          "createdAt": "2026-09-22T00:00:00Z",
+          "cidrs": [
+            "132.196.86.0/24",
+            "2a01:111::/32"
+          ]
+        }
+      },
+      "now": "2026-10-23T00:00:00.000Z"
+    },
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "gptbot",
+      "name": "GPTBot",
+      "operator": "OpenAI",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches GPTBot",
+        "IP \"999.1.1.1\" is not a single valid address, so it was not checked"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)",
+      "ip": null
+    },
+    "options": {
+      "ipRanges": {
+        "https://openai.com/gptbot.json": {
+          "url": "https://openai.com/gptbot.json",
+          "createdAt": "2026-09-22T00:00:00Z",
+          "cidrs": [
+            "132.196.86.0/24",
+            "2a01:111::/32"
+          ]
+        }
+      },
+      "now": "2026-10-23T00:00:00.000Z"
+    },
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "gptbot",
+      "name": "GPTBot",
+      "operator": "OpenAI",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches GPTBot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)",
+      "ip": "132.196.86.5"
+    },
+    "options": {
+      "ipRanges": {
+        "https://openai.com/gptbot.json": {
+          "url": "https://openai.com/gptbot.json",
+          "createdAt": "2026-09-22T00:00:00Z",
+          "cidrs": []
+        }
+      },
+      "now": "2026-10-23T00:00:00.000Z"
+    },
+    "result": {
+      "category": "ai-crawler",
+      "kind": "training",
+      "id": "gptbot",
+      "name": "GPTBot",
+      "operator": "OpenAI",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "user agent matches GPTBot"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Android 16; Mobile; rv:158.0) Gecko/158.0 Firefox/158.0"
+    },
+    "options": {},
+    "result": {
+      "category": "human",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "browser user agent; headers not checked"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/130.0.6723.90 Mobile/15E148 Safari/604.1"
+    },
+    "options": {},
+    "result": {
+      "category": "human",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "browser user agent; headers not checked"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+    },
+    "options": {},
+    "result": {
+      "category": "human",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "browser user agent; headers not checked"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    "options": {},
+    "result": {
+      "category": "human",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "browser user agent; headers not checked"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0"
+    },
+    "options": {},
+    "result": {
+      "category": "human",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "browser user agent; headers not checked"
+      ]
+    }
+  },
+  {
+    "input": {
+      "headers": {
+        "accept": "text/markdown;q=1.0,text/x-markdown;q=0.9,text/plain;q=0.8,text/html;q=0.7,*/*;q=0.1"
+      }
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "coding",
+      "id": "opencode",
+      "name": "OpenCode",
+      "operator": "SST",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "Accept header matches OpenCode's fingerprint",
+        "OpenCode runs on the user's machine, so IP verification does not apply"
+      ]
+    }
+  },
+  {
+    "input": {
+      "headers": {
+        "accept": "TEXT/MARKDOWN; Q=1.0, text/x-markdown; q=0.9, text/plain; q=0.8, text/html; q=0.7, */*; q=0.1"
+      }
+    },
+    "options": {},
+    "result": {
+      "category": "agent",
+      "kind": "coding",
+      "id": "opencode",
+      "name": "OpenCode",
+      "operator": "SST",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "Accept header matches OpenCode's fingerprint",
+        "OpenCode runs on the user's machine, so IP verification does not apply"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "headers": {
+        "accept": "text/plain, text/html;q=0.9"
+      }
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "fake-browser",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "Accept header ranks text/plain above HTML, which browsers never do"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "headers": {
+        "accept": "text/html,application/xhtml+xml,*/*;q=0.8"
+      }
+    },
+    "options": {},
+    "result": {
+      "category": "human",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "browser user agent; headers not checked"
+      ]
+    }
+  },
+  {
+    "input": {},
+    "options": {},
+    "result": {
+      "category": "unknown",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "no user agent or headers to classify"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "",
+      "headers": {
+        "accept": "*/*"
+      }
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "unidentified",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "request has no user agent, which browsers always send"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "docs-mirror/1.0 (+https://example.com/bot)"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "unidentified",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "user agent is not a browser and matches no known agent, crawler or client"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "ARCTIC"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "unidentified",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "user agent is not a browser and matches no known agent, crawler or client"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "unidentified",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "user agent is not a browser and matches no known agent, crawler or client"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "unidentified",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "user agent is not a browser and matches no known agent, crawler or client"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148"
+    },
+    "options": {},
+    "result": {
+      "category": "human",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "browser user agent; headers not checked"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko"
+    },
+    "options": {},
+    "result": {
+      "category": "human",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "browser user agent; headers not checked"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0)"
+    },
+    "options": {},
+    "result": {
+      "category": "human",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "browser user agent; headers not checked"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:25.0) Gecko/20100101 conkeror/1.0pre"
+    },
+    "options": {},
+    "result": {
+      "category": "human",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "browser user agent; headers not checked"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Linux; Android 6.0; CUBOT MAX Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
+    },
+    "options": {},
+    "result": {
+      "category": "human",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "browser user agent; headers not checked"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Mobile Safari/537.36 (Ecosia android@111.0.5563.116)"
+    },
+    "options": {},
+    "result": {
+      "category": "human",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "browser user agent; headers not checked"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Lynx/2.9.0dev.12 libwww-FM/2.14 SSL-MM/1.4.1 GNUTLS/3.7.8"
+    },
+    "options": {},
+    "result": {
+      "category": "human",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "browser user agent; headers not checked"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; SM-S918B Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6367.123 Mobile Safari/537.36 CamScanner/4.8.5.2310271827"
+    },
+    "options": {},
+    "result": {
+      "category": "human",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "browser user agent; headers not checked"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Version/16.6.1 Mobile/15E148 Safari/605.1.15 NewsSapphire/1.0.4"
+    },
+    "options": {},
+    "result": {
+      "category": "human",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "browser user agent; headers not checked"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (compatible; Konqueror/4.4; Linux) KHTML/4.4.5 (like Gecko) Kubuntu"
+    },
+    "options": {},
+    "result": {
+      "category": "human",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "browser user agent; headers not checked"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.61 Safari/537.36 ArchiveBox/0.6.2"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "unidentified",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "user agent is not a browser and matches no known agent, crawler or client"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (compatible; GlintbaseResearch/1.0)"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "unidentified",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "user agent is not a browser and matches no known agent, crawler or client"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64; Splunk Synthetics) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.6533.88 Safari/537.36"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "unidentified",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "user agent is not a browser and matches no known agent, crawler or client"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36; Selenium"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "unidentified",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "user agent is not a browser and matches no known agent, crawler or client"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 PTST/SpeedCurve/230120.120134"
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "unidentified",
+      "verified": null,
+      "confidence": "low",
+      "reasons": [
+        "user agent is not a browser and matches no known agent, crawler or client"
+      ]
+    }
+  },
+  {
+    "input": {
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "headers": {
+        "accept": "*/*,application/metalink4+xml,application/metalink+xml"
+      }
+    },
+    "options": {},
+    "result": {
+      "category": "bot",
+      "kind": "fake-browser",
+      "verified": null,
+      "confidence": "medium",
+      "reasons": [
+        "Accept header asks for metalink, which download tools send and browsers do not"
+      ]
+    }
+  }
+]
