@@ -72,6 +72,21 @@ Results contain `category`, `verified`, `confidence` and `reasons`, plus `kind`,
 
 Classification checks known identities first, then markdown preferences, generic clients, browser consistency and fallbacks. Agents running on user machines are never IP-verified. Some agents are invisible at the HTTP level, and shared identities cannot distinguish every product. See [GUIDELINES.md](GUIDELINES.md) for upstream rationale.
 
+### Reporting automated browsers
+
+Counting only `category === 'agent'` misses browser automation. Report `bot/headless` and `bot/fake-browser` together as a separate `automated-browser` bucket:
+
+```php
+$bucket = $result['category'] === 'bot'
+    && in_array($result['kind'] ?? null, ['headless', 'fake-browser'], true)
+        ? 'automated-browser'
+        : $result['category'];
+```
+
+This bucket covers automation signals, including headless browser tooling and inconsistent browser headers. It does not establish AI use: ordinary scripts and testing tools can produce the same signals, while agents operating a real browser may look human. Classification retains the upstream categories.
+
+Invalid `now` values throw `InvalidArgumentException`; they cannot make stale IP ranges count as fresh.
+
 Additional static methods:
 
 - `prefersMarkdown(string $accept): bool`

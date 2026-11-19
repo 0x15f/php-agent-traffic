@@ -53,6 +53,18 @@ $loaded = AgentTraffic::loadIpRanges(static function ($url) {
 
     return json_encode(['creationTime' => '2026-11-18T00:00:00Z', 'prefixes' => [['ipv4Prefix' => '132.196.86.0/24'], ['ipv6Prefix' => '2a01:111::/32'], ['ipv4Prefix' => 'broken/99']]]);
 });
+foreach (['not a date', '', false, [], new stdClass] as $invalidNow) {
+    $rejected = false;
+    try {
+        AgentTraffic::classify(['userAgent' => 'GPTBot/1.4', 'ip' => '73.12.4.9'], ['ipRanges' => $loaded, 'now' => $invalidNow]);
+    } catch (InvalidArgumentException) {
+        $rejected = true;
+    }
+    check($rejected, true, 'Invalid now rejected');
+}
+foreach ([new DateTimeImmutable('2026-11-18T00:00:00Z'), '2026-11-18T00:00:00Z', 1794960000] as $validNow) {
+    check(AgentTraffic::classify(['userAgent' => 'GPTBot/1.4', 'ip' => '73.12.4.9'], ['ipRanges' => $loaded, 'now' => $validNow])['verified'], false, 'Valid now accepted');
+}
 check(count($loaded), 1, 'Failed sources skipped');
 check(count($loaded['https://openai.com/gptbot.json']['cidrs']), 2, 'Malformed CIDR skipped');
 check(AgentTraffic::loadIpRanges(fn () => 'invalid json'), [], 'Invalid JSON skipped');

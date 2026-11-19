@@ -104,6 +104,17 @@ final class AgentTraffic
 
     public static function classify(array $input, array $options = []): array
     {
+        if (isset($options['now'])) {
+            $now = $options['now'];
+            $timestamp = $now instanceof \DateTimeInterface
+                ? $now->getTimestamp()
+                : (is_int($now) ? $now : (is_string($now) ? strtotime($now) : false));
+            if ($timestamp === false) {
+                throw new \InvalidArgumentException('now must be a DateTimeInterface, Unix timestamp or valid date string');
+            }
+            $options['now'] = $timestamp;
+        }
+
         $h = [];
         foreach ($input['headers'] ?? [] as $key => $value) {
             if ($value !== null) {
